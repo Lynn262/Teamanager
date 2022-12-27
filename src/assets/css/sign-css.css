@@ -1,0 +1,108 @@
+.bg-box {
+  /* background-color: #4d58b5; */
+  background: url("~@/assets/picture/signInBg.png") no-repeat 0% 0%;
+  background-size: 100% 100%;
+}
+.sign-up-box{
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  height: 400px;
+}
+
+.no-bg-box {
+  background-color: #fff;
+}
+
+.sign-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  margin-left: -250px;
+  min-width: 500px;
+  height: 700px;
+  margin-top: -350px;
+  min-height: 300px;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0);
+
+}
+.sign-in-content{
+  height: 60%;
+  background: #fff;
+  border-radius: 10px;
+  
+}
+.sign-toggle-box-link{
+  margin-top: 10%;
+  height: 30%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border-radius: 10px;
+}
+a{
+  transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out;
+  text-decoration: none;
+  color: #1b1b1b;
+  background-color: #65b54d56;
+  border: 2px solid #65b54d;
+  width: 80%;
+  display: block;
+  text-align: center;
+  padding: 2%;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+a:hover{
+  transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out;
+  background-color: #65b54d;
+  color: #fff;
+}
+.sign-toggle-box-link p{
+  margin-top: 0.7rem;
+  color: var(--el-text-color-primary);
+  font-size: 1.5rem;
+}
+.sign-toggle-box-link span{
+  color: var(--el-text-color-primary);
+  margin-top: 1rem;
+  font-size: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+.submit-box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+}
+.btn-submit{
+  transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out;
+  text-decoration: none;
+  color: #1b1b1b;
+  background-color: #65b54d56;
+  border: 2px solid #65b54d;
+  width: 80%;
+  display: block;
+  text-align: center;
+  padding: 2%;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+.btn-submit:hover{
+  transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out;
+  background-color: #65b54d;
+  color: #fff;
+}
+.login-form{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.cascader-box{
+  margin-right: 2rem;
+  margin-left: 2rem;
+  display: inline-block;
+}
